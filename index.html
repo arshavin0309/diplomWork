@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Diplom</title>
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -52,16 +52,18 @@
 	</header>
 	<main>
 		<section class="hero">
-			<div class="swiper container hero__container">
-				<div class="hero swiper-wrapper hero__swiper-wrapper">
+			<div class="swiper hero__container">
+				<div class="swiper-wrapper hero__swiper-wrapper">
 					<div class="swiper-slide hero__slide_1"></div>
 					<div class="swiper-slide hero__slide_2"></div>
 					<div class="swiper-slide hero__slide_3"></div>
 				</div>
-				<div class="hero__case">
-					<h1 class="hero__title">Прикоснитесь к прекрасному</h1>
-					<p class="hero__info">Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий создаёт предпосылки для новых предложений.</p>
-					<a class="hero__link" href="">Подписаться на рассылку</a>
+				<div class="container">
+					<div class="hero__case">
+						<h1 class="hero__title">Прикоснитесь к прекрасному</h1>
+						<p class="hero__info">Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий создаёт предпосылки для новых предложений.</p>
+						<a class="hero__link" href="">Подписаться на рассылку</a>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -243,86 +245,6 @@
 										<a href="" class="accordion__link">Пинтуриккьо</a>
 									</li>
 								</ul>
-
-
-								<!-- <ul class="accordion__list">
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Бенедетто ди Биндо</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Бергоньоне, Амброджо</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Биссоло, Франческо</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Больтраффио, Джованни</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Бонсиньори, Франческо</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Боттичини, Рафаэлло</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Брамантино</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Бреа, Людовико</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Бьяджо д’Антонио Туччи</a>
-									</li>
-								</ul>
-								<ul class="accordion__list">
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Веккьетта</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Андреа Верроккьо</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Доменико Гирландайо</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Беноццо Гоццоли</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Граначчи, Франческо</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Грегорио ди Чекко</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Джованни да Удине</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Джованни ди Паоло</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Джорджоне</a>
-									</li>
-								</ul>
-								<ul class="accordion__list">
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Парентино, Бернардо</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Пезеллино</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Пьетро Перуджино</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Перуцци, Бальдассаре</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Пизанелло</a>
-									</li>
-									<li class="accordion__item">
-										<a href="" class="accordion__link">Пинтуриккьо</a>
-									</li>
-								</ul> -->
 							</div>
 							<h3 class="accordeon__title">C 1500 по 1599 гг.
 								<img class="accordeon__arrow" src="img/accordeon_arrow.png" alt=""></h3>
@@ -450,7 +372,7 @@
 
 		<section class="test-section publications">
 			<div class="container publications__container">
-				<div class="content-wrap">
+				<div class="content-wrap publications__wrap">
 					<div class="test-left-elem publications__left">
 						<h2 class="publications__title">Издания</h2>
 						<ul class="publications__list">
@@ -556,98 +478,94 @@
 						</div>
 					</div>
 					<div class="test-swiper test-swiper2">
-					<div class="test-navigation_2">
-						<button class="nav-btn test-prev" aria-label="К предыдущему слайду"></button>
-						<div class="test-pagination_2"></div>
-						<button class="nav-btn test-next" aria-label="К следующему слайду"></button>
+						<div class="test-navigation_2">
+							<button class="nav-btn test-prev" aria-label="К предыдущему слайду"></button>
+							<div class="test-pagination_2"></div>
+							<button class="nav-btn test-next" aria-label="К следующему слайду"></button>
+						</div>
+						<div class="swiper-container slides-container_2">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide test-slide publications__case">
+									<img src="img/publications_1.png" alt="" class="publications__img">
+									<div class="publications__info">
+										<div class="publications__name">
+											Искусство цвета <br>
+											Иттен, Иоханнес
+										</div>
+										<div class="publications__cost">620 руб</div>
+									</div>
+									<button class="publications__btn">Заказать</button>
+								</div>
+								<div class="swiper-slide test-slide publications__case">
+									<img src="img/publications_2.png" alt="" class="publications__img">
+									<div class="publications__info">
+										<div class="publications__name">
+											Типографика <br>
+											Рудер, Эмиль
+										</div>
+										<div class="publications__cost">2 450 руб</div>
+									</div>
+									<button class="publications__btn">Заказать</button>
+								</div>
+								<div class="swiper-slide test-slide publications__case">
+									<img src="img/publications_3.png" alt="" class="publications__img">
+									<div class="publications__info">
+										<div class="publications__name">
+											Книга про буквы <br>
+											Гордон, Юрий
+										</div>
+										<div class="publications__cost">2 200 руб</div>
+									</div>
+									<button class="publications__btn">Заказать</button>
+								</div>
+								<div class="swiper-slide test-slide publications__case">
+									<img src="img/publications_4.png" alt="" class="publications__img">
+									<div class="publications__info">
+										<div class="publications__name">
+											Николай Ильин
+											Кричевский, Владимир
+										</div>
+										<div class="publications__cost">1 100 руб</div>
+									</div>
+									<button class="publications__btn">Заказать</button>
+								</div>
+								<div class="swiper-slide test-slide publications__case">
+									<img src="img/publications_5.png" alt="" class="publications__img">
+									<div class="publications__info">
+										<div class="publications__name">
+											Модульные сетки в граф...
+											Мюллер-Брокманн, Йозеф
+										</div>
+										<div class="publications__cost">1 450 руб</div>
+									</div>
+									<button class="publications__btn">Заказать</button>
+								</div>
+								<div class="swiper-slide test-slide publications__case">
+									<img src="img/publications_6.png" alt="" class="publications__img">
+									<div class="publications__info">
+										<div class="publications__name">
+											Эволюция графических ст...
+											Хеллер, Чваст
+										</div>
+										<div class="publications__cost">3 200 руб</div>
+									</div>
+									<button class="publications__btn">Заказать</button>
+								</div>
+								<div class="swiper-slide test-slide publications__case">
+									<img src="img/publications_7.png" alt="" class="publications__img">
+									<div class="publications__info">
+										<div class="publications__name">
+											Искусство и визуальное в...
+											Арнхейм, Рудольф
+										</div>
+										<div class="publications__cost">2 200 руб</div>
+									</div>
+									<button class="publications__btn">Заказать</button>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="swiper-container slides-container_2">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide test-slide publications__case">
-							<img src="img/publications_1.png" alt="" class="publications__img">
-							<div class="publications__info">
-								<div class="publications__name">
-									Искусство цвета <br>
-									Иттен, Иоханнес
-								</div>
-								<div class="publications__cost">620 руб</div>
-							</div>
-							<button class="publications__btn">Заказать</button>
-						</div>
-						<div class="swiper-slide test-slide publications__case">
-							<img src="img/publications_2.png" alt="" class="publications__img">
-							<div class="publications__info">
-								<div class="publications__name">
-									Типографика <br>
-									Рудер, Эмиль
-								</div>
-								<div class="publications__cost">2 450 руб</div>
-							</div>
-							<button class="publications__btn">Заказать</button>
-						</div>
-						<div class="swiper-slide test-slide publications__case">
-							<img src="img/publications_3.png" alt="" class="publications__img">
-							<div class="publications__info">
-								<div class="publications__name">
-									Книга про буквы <br>
-									Гордон, Юрий
-								</div>
-								<div class="publications__cost">2 200 руб</div>
-							</div>
-							<button class="publications__btn">Заказать</button>
-						</div>
-						<div class="swiper-slide test-slide publications__case">
-							<img src="img/publications_4.png" alt="" class="publications__img">
-							<div class="publications__info">
-								<div class="publications__name">
-									Николай Ильин
-									Кричевский, Владимир
-								</div>
-								<div class="publications__cost">1 100 руб</div>
-							</div>
-							<button class="publications__btn">Заказать</button>
-						</div>
-						<div class="swiper-slide test-slide publications__case">
-							<img src="img/publications_5.png" alt="" class="publications__img">
-							<div class="publications__info">
-								<div class="publications__name">
-									Модульные сетки в граф...
-									Мюллер-Брокманн, Йозеф
-								</div>
-								<div class="publications__cost">1 450 руб</div>
-							</div>
-							<button class="publications__btn">Заказать</button>
-						</div>
-						<div class="swiper-slide test-slide publications__case">
-							<img src="img/publications_6.png" alt="" class="publications__img">
-							<div class="publications__info">
-								<div class="publications__name">
-									Эволюция графических ст...
-									Хеллер, Чваст
-								</div>
-								<div class="publications__cost">3 200 руб</div>
-							</div>
-							<button class="publications__btn">Заказать</button>
-						</div>
-						<div class="swiper-slide test-slide publications__case">
-							<img src="img/publications_7.png" alt="" class="publications__img">
-							<div class="publications__info">
-								<div class="publications__name">
-									Искусство и визуальное в...
-									Арнхейм, Рудольф
-								</div>
-								<div class="publications__cost">2 200 руб</div>
-							</div>
-							<button class="publications__btn">Заказать</button>
-						</div>
-					</div>
-					</div>
-					</div>
-					<div class="test-last">
-					</div>
-
 				</div>
-
 			</div>
 		</section>
 
@@ -656,8 +574,6 @@
 				<h2 class="projects__title">Проекты</h2>
 				<p class="projects__info">Предварительные выводы: постоянное информационно-пропагандистское обеспечение нашей деятельности однозначно фиксирует необходимость своевременного выполнения сверхзадачи. А ещё независимые государства смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. Прежде всего, постоянное <br class="br"> информационно-пропагандистское <img src="img/i.svg" alt=""> обеспечение нашей деятельности однозначно фиксирует необходимость экономической целесообразности принимаемых решений. И нет сомнений, что действия представителей оппозиции могут быть рассмотрены <img src="img/i.svg" alt=""> исключительно в разрезе маркетинговых и финансовых <img src="img/i.svg" alt=""> предпосылок. Банальные, но неопровержимые выводы, а также представители современных социальных резервов призывают нас к новым свершениям, которые, в свою очередь, должны быть смешаны с не уникальными данными до степени совершенной неузнаваемости. Подробнее: <a href="" class="project__info__link">blanchard-art.ru/projects/about</a></p>
 				<h3 class="projects__heading">Партнёры проектов:</h3>
-
-
 				<div class="slider-wrap js-slider-main">
 					<div class="slider js-slider">
 						<div class="slides-wrap js-slides-wrap">
