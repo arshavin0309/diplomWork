@@ -867,6 +867,22 @@ label {
     color: #333333;
 }
 
+.projects__swiper {
+  position: relative;
+  overflow: hidden;
+}
+
+.projects__wrapper {
+}
+
+.projects__prev {
+  /* position: absolute; */
+}
+
+.projects__next {
+  /* position: absolute; */
+}
+
 .projects__slide {
     display: flex;
     padding-left: 75px;
@@ -1208,9 +1224,9 @@ label {
 }
 
 .slide {
-    width: 450px !important;
+    width: 100%;
     min-height: 100px;
-    margin-right: 50px !important;
+    margin-right: 50px;
     background-color: green;
 }
 
@@ -1420,7 +1436,7 @@ label {
     }
 
     .slide {
-        width: 387px !important;
+        /* width: 387px !important; */
     }
 
     .contacts__container {

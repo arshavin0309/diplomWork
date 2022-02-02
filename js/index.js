@@ -3,6 +3,14 @@ const swiper = new Swiper('.swiper', {
     loop: true,
 });
 
+const projects__swiper = new Swiper('.projects__swiper', {
+  loop: true,
+  slidesPerView: 3,
+  navigation: {
+    nextEl: ".projects__next",
+    prevEl: ".projects__prev"
+  },
+});
 
 $( function() {
     $( "#accordion" ).accordion({
@@ -165,20 +173,20 @@ function activateSlider(params) {
   const pagination = document.createElement("div");
   const navBtnPrev = document.createElement("button");
   const navBtnNext = document.createElement("button");
-  
+
   navigation.classList.add(params.navClassName);
-  
+
   navBtnPrev.classList.add(params.navBtnClassName);
   navBtnPrev.classList.add(params.navPrev);
   navigation.prepend(navBtnPrev);
-  
+
   pagination.classList.add(params.paginationClassName);
   navigation.append(pagination);
-  
+
   navBtnNext.classList.add(params.navBtnClassName);
   navBtnNext.classList.add(params.navNext);
   navigation.append(navBtnNext);
-  
+
   params.sliderWrapElem.prepend(navigation);
 
   params.cardsContainer.classList.add("swiper-container");
@@ -187,7 +195,7 @@ function activateSlider(params) {
   params.cardsSlider = new Swiper(`.${params.cardsContainerName}`, {
     slidesPerView: 3,
     spaceBetween: 20,
-    
+
     pagination: {
       el: `.${params.sliderWrap} .${params.paginationClassName}`,
       type: "fraction"

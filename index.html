@@ -17,6 +17,8 @@
 </head>
 <body>
 	<header class="header">
+
+    <!-- старый header -->
 		<div class="header__top">
 			<nav class="container header__top__container">
 				<a href="" class="header__burger"><img src="img/Burger.svg" alt="Кнопка раскрыть меню"></a>
@@ -574,21 +576,60 @@
 				<h2 class="projects__title">Проекты</h2>
 				<p class="projects__info">Предварительные выводы: постоянное информационно-пропагандистское обеспечение нашей деятельности однозначно фиксирует необходимость своевременного выполнения сверхзадачи. А ещё независимые государства смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. Прежде всего, постоянное <br class="br"> информационно-пропагандистское <img src="img/i.svg" alt=""> обеспечение нашей деятельности однозначно фиксирует необходимость экономической целесообразности принимаемых решений. И нет сомнений, что действия представителей оппозиции могут быть рассмотрены <img src="img/i.svg" alt=""> исключительно в разрезе маркетинговых и финансовых <img src="img/i.svg" alt=""> предпосылок. Банальные, но неопровержимые выводы, а также представители современных социальных резервов призывают нас к новым свершениям, которые, в свою очередь, должны быть смешаны с не уникальными данными до степени совершенной неузнаваемости. Подробнее: <a href="" class="project__info__link">blanchard-art.ru/projects/about</a></p>
 				<h3 class="projects__heading">Партнёры проектов:</h3>
-				<div class="slider-wrap js-slider-main">
-					<div class="slider js-slider">
-						<div class="slides-wrap js-slides-wrap">
-							<img class="slide projects__img" src="img/partners_1.png" alt="Логотип партнёра">
-							<img class="slide projects__img" src="img/partners_2.png" alt="Логотип партнёра">
-							<img class="slide projects__img" src="img/partners_3.png" alt="Логотип партнёра">
-							<img class="slide projects__img" src="img/partners_4.png" alt="Логотип партнёра">
-							<img class="slide projects__img" src="img/partners_5.png" alt="Логотип партнёра">
-							<img class="slide projects__img" src="img/partners_6.png" alt="Логотип партнёра">
-							<img class="slide projects__img" src="img/partners_7.png" alt="Логотип партнёра">
-							<img class="slide projects__img" src="img/partners_8.png" alt="Логотип партнёра">
-							<img class="slide projects__img" src="img/partners_9.png" alt="Логотип партнёра">
-						</div>
-					</div>
-				</div>
+
+        <!-- старый свайпер, проблема с адаптивом -->
+        <!-- <div class="slider-wrap js-slider-main">
+          <div class="slider js-slider">
+            <div class="slides-wrap js-slides-wrap">
+              <img class="slide projects__img" src="img/partners_1.png" alt="Логотип партнёра">
+              <img class="slide projects__img" src="img/partners_2.png" alt="Логотип партнёра">
+              <img class="slide projects__img" src="img/partners_3.png" alt="Логотип партнёра">
+              <img class="slide projects__img" src="img/partners_4.png" alt="Логотип партнёра">
+              <img class="slide projects__img" src="img/partners_5.png" alt="Логотип партнёра">
+              <img class="slide projects__img" src="img/partners_6.png" alt="Логотип партнёра">
+              <img class="slide projects__img" src="img/partners_7.png" alt="Логотип партнёра">
+              <img class="slide projects__img" src="img/partners_8.png" alt="Логотип партнёра">
+              <img class="slide projects__img" src="img/partners_9.png" alt="Логотип партнёра">
+            </div>
+          </div>
+        </div> -->
+
+        <!-- новый свайпер -->
+        <div class="projects__swiper">
+          <div class="swiper-button-prev projects__prev"></div>
+          <div class="swiper-wrapper projects__wrapper">
+            <div class="swiper-slide">
+              <img class="slide projects__img" src="img/partners_1.png" alt="Логотип партнёра">
+            </div>
+            <div class="swiper-slide">
+              <img class="slide projects__img" src="img/partners_2.png" alt="Логотип партнёра">
+            </div>
+            <div class="swiper-slide">
+              <img class="slide projects__img" src="img/partners_3.png" alt="Логотип партнёра">
+            </div>
+            <div class="swiper-slide">
+              <img class="slide projects__img" src="img/partners_4.png" alt="Логотип партнёра">
+            </div>
+            <div class="swiper-slide">
+              <img class="slide projects__img" src="img/partners_5.png" alt="Логотип партнёра">
+            </div>
+            <div class="swiper-slide">
+              <img class="slide projects__img" src="img/partners_6.png" alt="Логотип партнёра">
+            </div>
+            <div class="swiper-slide">
+              <img class="slide projects__img" src="img/partners_7.png" alt="Логотип партнёра">
+            </div>
+            <div class="swiper-slide">
+              <img class="slide projects__img" src="img/partners_8.png" alt="Логотип партнёра">
+            </div>
+            <div class="swiper-slide">
+              <img class="slide projects__img" src="img/partners_9.png" alt="Логотип партнёра">
+            </div>
+          </div>
+          <div class="swiper-button-next projects__next"></div>
+          <!-- <div class="swiper-pagination"></div>
+          <div class="swiper-scrollbar"></div> -->
+        </div>
 			</div>
 		</section>
 		<section class="contacts">
